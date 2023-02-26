@@ -7,9 +7,8 @@ public class NewsPaper : MonoBehaviour
 {
    
     public GameObject newspaper;
-   
 
-    
+
 
     // is put n the news paper, whent he colider that is a trigger detetcts a collision with the player game object, then it will use a world canvas
     private void OnTriggerEnter(Collider other)
@@ -19,6 +18,8 @@ public class NewsPaper : MonoBehaviour
         if (player != null)
         {
             newspaper.SetActive(true);
+            
+
         }
         
 
