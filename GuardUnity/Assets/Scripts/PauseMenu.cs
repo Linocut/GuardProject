@@ -10,7 +10,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenu;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (Input.GetButtonDown("Pause")) // the "Tab" key and "joystick button 7" in the Input Manager.
         {
             if (GamePaused)
             {
