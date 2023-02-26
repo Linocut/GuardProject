@@ -35868,14 +35868,14 @@ MonoBehaviour:
     m_Bits: 384
   _canSeePlayer: 0
   _isChasingPlayer: 0
-  _IAmWaiting: 1
+  _IAmWaiting: 0
   _randomWaitTime: 0
   _randomWander: 1
   _alwaysMoving: 1
   _fleeFromPlayer: 0
   wait_time: 2
   _speed: 45
-  _walkRadius: 500
+  _walkRadius: 1000
   _FoVRadius: 219.3
   _FoVAngle: 84
   _proximityRadius: 69
@@ -59287,6 +59287,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7da5ee1f9caceec4abb4b4954b891f86, type: 3}
       propertyPath: m_Name
       value: WallConcrete (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7da5ee1f9caceec4abb4b4954b891f86, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7da5ee1f9caceec4abb4b4954b891f86, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7da5ee1f9caceec4abb4b4954b891f86, type: 3}
@@ -84254,7 +84262,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1711813854359781096
 MeshRenderer:
   m_ObjectHideFlags: 0
