@@ -666,7 +666,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -135, y: -10}
+  m_AnchoredPosition: {x: -135, y: -30}
   m_SizeDelta: {x: 130, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279785989
@@ -1636,7 +1636,9 @@ MonoBehaviour:
 
     Navigation
 
-    Pause'
+    Pause
+
+    Select'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: edf00bd8ed9110847be7ffef8a38a9aa, type: 2}
   m_sharedMaterial: {fileID: -3079570277891073733, guid: edf00bd8ed9110847be7ffef8a38a9aa, type: 2}
@@ -1933,9 +1935,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Right Joystick
+  m_text: 'Left Joystick
 
-    Left Joystick
+    Right Joystick
 
     L3
 
@@ -1945,7 +1947,9 @@ MonoBehaviour:
 
     DPAD
 
-    Start'
+    Start
+
+    A'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: edf00bd8ed9110847be7ffef8a38a9aa, type: 2}
   m_sharedMaterial: {fileID: -3079570277891073733, guid: edf00bd8ed9110847be7ffef8a38a9aa, type: 2}
@@ -2092,7 +2096,9 @@ MonoBehaviour:
 
     WASD
 
-    Tab'
+    Tab
+
+    Enter'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: edf00bd8ed9110847be7ffef8a38a9aa, type: 2}
   m_sharedMaterial: {fileID: -3079570277891073733, guid: edf00bd8ed9110847be7ffef8a38a9aa, type: 2}
