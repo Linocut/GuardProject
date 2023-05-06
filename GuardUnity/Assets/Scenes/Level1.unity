@@ -33233,7 +33233,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 600
   playerBody: {fileID: 1313759972}
-  check: 1
 --- !u!114 &893860756
 MonoBehaviour:
   m_ObjectHideFlags: 0
