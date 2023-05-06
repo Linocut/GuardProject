@@ -248,14 +248,7 @@ public class CoreAI : MonoBehaviour
     {
         _isChasingPlayer = true;
         _navMeshAgent.destination = _player.transform.position;
-        if (_canSeePlayer == true)
-        {
-            _enemyColor.material.color = Color.red;
-        }
-        else
-        {
-            _enemyColor.material.color = Color.magenta;
-        }
+        
         FieldOfViewCheck();
     }
     public void FleeFromPlayer()
@@ -277,7 +270,6 @@ public class CoreAI : MonoBehaviour
         switch (_AIState)
         {
             case AIState.Passive:
-                _enemyColor.material.color = Color.yellow;
                 if (_randomWander == true)
                 {
 
@@ -286,7 +278,6 @@ public class CoreAI : MonoBehaviour
                     {
                         //for some reason can see player is never true
 
-                        _enemyColor.material.color = Color.green;
                         _AIState = AIState.Hostile;
                     }
                 }

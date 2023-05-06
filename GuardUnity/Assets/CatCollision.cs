@@ -14,12 +14,12 @@ public class CatCollision : MonoBehaviour
             if (controller.guffinCheck() == true)
             {
                 Debug.Log("Win");
-                SceneManager.LoadScene("WinScene");
+                SceneManager.LoadScene("WinScreen");
             }
             else if (controller.guffinCheck() == false)
             {
                 Debug.Log("lose");
-                SceneManager.LoadScene("LoseScene");
+                SceneManager.LoadScene("LoseScreen");
             }
 
         }
